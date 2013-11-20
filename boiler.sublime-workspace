@@ -1,0 +1,620 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Consol",
+				"ConsoleGameModel"
+			],
+			[
+				"console",
+				"consolesGame"
+			],
+			[
+				"method",
+				"method_exists"
+			],
+			[
+				"pass",
+				"password_repeat"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"bi",
+				"background-image"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"is_",
+				"is_array"
+			],
+			[
+				"member",
+				"member_id"
+			],
+			[
+				"consoles",
+				"consoles_game_id"
+			],
+			[
+				"getT",
+				"gettype"
+			],
+			[
+				"actionSear",
+				"actionSearchByConsoleFailed"
+			],
+			[
+				"game",
+				"gameInput"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"em",
+				"emailFrom"
+			],
+			[
+				"base",
+				"baseUrl"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"baseu",
+				"baseUrlRest"
+			],
+			[
+				"gae",
+				"gamexchange"
+			],
+			[
+				"login",
+				"loginAttempt"
+			],
+			[
+				"tmpl",
+				"tmplError"
+			],
+			[
+				"fie",
+				"field_values"
+			],
+			[
+				"user",
+				"userModel"
+			],
+			[
+				"uSe",
+				"UserView"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "js/src/tools/build.js",
+			"settings":
+			{
+				"buffer_size": 323,
+				"line_ending": "Unix",
+				"name": "build.js"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 490,
+				"line_ending": "Unix",
+				"name": "index.html"
+			}
+		},
+		{
+			"file": "js/src/js/app.js",
+			"settings":
+			{
+				"buffer_size": 905,
+				"line_ending": "Unix",
+				"name": "app.js"
+			}
+		},
+		{
+			"file": "js/src/js/vendor/helper.coffee",
+			"settings":
+			{
+				"buffer_size": 38,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/src/js/app/app.coffee",
+			"settings":
+			{
+				"buffer_size": 57,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pi",
+				"Package Control: Install Package"
+			],
+			[
+				"paca",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/usr/local/apache2/htdocs/boilerdeveloper/js/src/js/vendor/helper.coffee",
+		"/usr/local/apache2/htdocs/boilerdeveloper/js/src/js/app/app.coffee",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/controllers/ApiController.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/js/src/js/backbone/model/user.coffee",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/js/src/js/backbone/model/games.coffee",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/js/src/js/app.js",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/js/src/js/backbone/model/consoleGame.coffee",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/js/src/js/backbone/model/consoles.coffee",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/modules/admin/AdminModule.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/modules/admin/views/default/login.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/modules/admin/controllers/DefaultController.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/themes/globalcms/backend/views/layouts/basic.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/migrations/m130612_025736_base_tables.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/project.sublime-project",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/config/console.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/js/src/js/backbone/view/games.coffee",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/js/src/js/backbone/router/games.coffee",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/js/prod/app.js",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/js/src/js/backbone/model/memberConsolesGame.coffee",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/commands/RolesCommand.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/commands/Migrate2Command.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/models/Members.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/migrations/m130713_154357_basegame.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/js/src/js/backbone/view/user.coffee",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/js/src/js/backbone/router/user.coffee",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/views/members/wishlist.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/views/members/mygames.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/views/shared/searchGames.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/controllers/MembersController.php",
+		"/private/var/folders/34/5kdppf9x433_bzxkg2jqv2lc0000gn/T/fz3temp-1/checkoutend.phtml",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/models/ConsolesGame.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/css/src/gmx/style.less",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/css/src/main.less",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/views/shared/games.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/controllers/SiteController.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/modules/soap/controllers/MemberConsolesGameController.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/models/MemberConsolesGame.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/views/tmpls/tmpl-game-details.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/tests/unit/MembersConsolesGameTest.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/config/test.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/config/test.conf",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/config/main.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/tests/unit/DatabaseTest.php",
+		"/Users/juliobarreraa/Documents/Proyectos/naat/Marke/Scripts Reportes/sql.sql",
+		"/Users/juliobarreraa/Documents/Proyectos/naat/Marke/Scripts Reportes/sql3.sql",
+		"/Users/juliobarreraa/Documents/Proyectos/naat/Marke/Scripts Reportes/sql2.sql",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/views/members/register.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/js/src/js/app/gamexchange.js",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/components/utils/ControllerRenderHelper.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/js/src/js/lib/gamexchange.coffee",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/modules/soap/controllers/ConsolesGameController.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/modules/soap/controllers/GamesController.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/models/Games.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/models/MemberConsolesGameOffers.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/views/layouts/column2.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/js/src/tools/build.js",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/views/layouts/main.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/js/src/js/lib/jquery-ui.min.js",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/themes/globalcms/backend/views/layouts/main.php",
+		"/Users/juliobarreraa/Documents/Proyectos/naat/Playboy/PlayboyMobileProject/gradlew.bat",
+		"/Users/juliobarreraa/Documents/Proyectos/naat/Playboy/PlayboyMobileProject/local.properties",
+		"/Users/juliobarreraa/Documents/Proyectos/naat/Playboy/PlayboyMobileProject/gradlew",
+		"/Users/juliobarreraa/Documents/Proyectos/naat/Playboy/PlayboyMobileProject/PlayboyMobileProject.iml",
+		"/Users/juliobarreraa/Documents/Proyectos/naat/Playboy/PlayboyMobileProject/settings.gradle",
+		"/Users/juliobarreraa/Documents/Proyectos/naat/Playboy/PlayboyMobileProject/build.gradle",
+		"/Users/juliobarreraa/Documents/Proyectos/naat/Playboy/PlayboyMobileProject/gradle/wrapper/gradle-wrapper.properties",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/components/Controller.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/views/tmpls/tmpl-user-recovery.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/models/RecoveryPasswordForm.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/modules/soap/controllers/MailController.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/modules/soap/controllers/MembersController.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/views/site/login.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/controllers/ConsolesController.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/views/site/recovery.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/models/LoginForm.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/models/SearchForm.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/css/style.css",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/css/src/gmx/gmx.less",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/css/src/bootstrap/bootstrap.less",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/views/site/index.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/views/tmpls/tmpl-user-details.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/js/src/js/backbone/router/consoles.coffee",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/js/src/js/backbone/router/global.coffee",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/js/src/js/backbone/view/global.coffee",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/css/src/bootstrap.less",
+		"/Users/juliobarreraa/Downloads/html5-autocomplete-suggestions/index.html",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/modules/soap/controllers/MunicipalitiesController.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/modules/soap/controllers/ConsolesController.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/modules/soap/controllers/DefaultController.php",
+		"/private/var/folders/34/5kdppf9x433_bzxkg2jqv2lc0000gn/T/fz3temp-1/grocery_crud.php",
+		"/private/var/folders/34/5kdppf9x433_bzxkg2jqv2lc0000gn/T/fz3temp-1/publicidad.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/js/src/js/backbone/collection/user.coffee",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/js/src/js/backbone/collection/games.coffee",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/js/src/js/backbone/collection/consoles.coffee",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/js/src/pages/home.js",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/views/consoles/index.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/css/src/style.less",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/css/src/alerts.less",
+		"/Users/juliobarreraa/Library/Application Support/Sublime Text 3/Packages/User/CoffeeCompile.sublime-settings",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/protected/views/tmpls/tmpl-game-offer-details.php",
+		"/usr/local/apache2/htdocs/pollock/gamexchange/js/prod/build.txt",
+		"/Users/juliobarreraa/Library/Application Support/Sublime Text 3/Packages/CoffeeCompile/CoffeeCompile.sublime-settings",
+		"/Users/juliobarreraa/Library/Application Support/Sublime Text 3/Packages/CoffeeCompile/Keymaps/Default (OSX).sublime-keymap",
+		"/private/var/folders/34/5kdppf9x433_bzxkg2jqv2lc0000gn/T/fz3temp-1/controller.php",
+		"/private/var/folders/34/5kdppf9x433_bzxkg2jqv2lc0000gn/T/fz3temp-1/item 2.php",
+		"/private/var/folders/34/5kdppf9x433_bzxkg2jqv2lc0000gn/T/fz3temp-1/item.php",
+		"/usr/local/apache2/htdocs/phpMyAdmin/config.inc.php",
+		"/Volumes/Codebit/Servidor/config.nice php",
+		"/Volumes/Codebit/Servidor/config.nice apache"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"*.php",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"GamesModel",
+			"backbone-relational",
+			"memberconsoles",
+			"relationalM",
+			"municipalities",
+			"states",
+			"		/**\n		 * Tabla de países, por defecto solo se inserta a México, con sus estados y algunos municipios\n		 * member_id, se relaciona con el usuario que dio de alta país\n		 */\n		$this->createTable('{{countries}}', array(\n			 'id' => 'pk'\n			,'member_id' => 'int(11) NOT NULL'\n			,'name' => 'varchar(150) NOT NULL'\n			,'enabled' => 'tinyint(1) NOT NULL DEFAULT 1'\n			,'updated_at' => 'int(10) UNSIGNED DEFAULT NULL'\n			,'created_at' => 'int(10) UNSIGNED NOT NULL'\n		), 'ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1');\n\n		$this->addForeignKey('{{countries_ibfk_1}}', '{{countries}}', 'member_id', '{{members}}', 'id', 'CASCADE', 'CASCADE');\n\n		//Insertamos el país desde el cual en un inicio se ejecutarán las transacciones.\n		$this->insert('{{countries}}', array(\n			 'member_id' => 1\n			,'name' => 'México'\n			,'created_at' => time()\n		));",
+			"countries",
+			"estados",
+			"console.log",
+			"wbox",
+			"relations",
+			"games",
+			"lala",
+			"alias",
+			"isNewRecord",
+			"ajax",
+			"console_id",
+			"+.btn.btn-inst",
+			"1.6",
+			"#\\sdeleted:\\s+(css\\/src\\/[\\w\\-\\.]+\\.less)",
+			"#\\sdeleted:\\s+(css\\/src\\/[\\w-]+\\.less)",
+			"#\\sdeleted:\\s+(css\\/src\\/\\w+\\.less)",
+			".register-login",
+			".col-md-8",
+			"<<<<<<< HEAD",
+			"a141c514c91f49138ad4745bb8188d7784c4f560",
+			"entro",
+			"selectStat",
+			"SoapCDbCriteria",
+			"default_javascript_path",
+			"get_add_input_fields",
+			"get_field_input",
+			"get_set_input",
+			"memberconsolesgame",
+			"consoleGame",
+			"save",
+			"mail",
+			"save",
+			"mail"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"git rm --cached $1",
+			"rm --cached $1",
+			"$1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "js/src/tools/build.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 323,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								323,
+								323
+							]
+						],
+						"settings":
+						{
+							"auto_name": "build.js",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 490,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								148,
+								148
+							]
+						],
+						"settings":
+						{
+							"auto_name": "index.html",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/src/js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 905,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								433,
+								439
+							]
+						],
+						"settings":
+						{
+							"auto_name": "app.js",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/src/js/vendor/helper.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 38,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38,
+								38
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/src/js/app/app.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 57,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38,
+								38
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.coffeecompile_output":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"project": "boiler.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 219.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/usr/local/apache2/htdocs/boilerdeveloper"
+		}
+	],
+	"settings":
+	{
+		"less2css":
+		{
+			"lesscCommand": false,
+			"lessBaseDir": "./",
+			"outputDir": "./css/",
+			"outputFile": "style.css",
+			"minify": true,
+			"minName": true,
+			"autoCompile": true,
+			"showErrorWithWindow": false,
+			"main_file": "main.less",
+			"ignorePrefixedFiles": false
+		}
+	}
+}
