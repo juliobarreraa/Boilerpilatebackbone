@@ -15,7 +15,10 @@ require.config({
 		helper: "helper",
 		bootstrap: "bootstrap.min",
 		localstorage: "backbone.localStorage.min",
-		appglobal: "../app/app"
+		appglobal: "../app/app",
+		user: "../backbone/user",
+		movie: "../backbone/movie",
+		toy: "../backbone/toy"
 	},
 	shim: {
 		jquery: {
@@ -31,9 +34,18 @@ require.config({
 		"backbone-relational": {
 			deps: ["backbone"]
 		},
-		appglobal: ["cs!helper"],
+		appglobal: ["cs!helper", "cs!user", "cs!movie", "cs!toy"],
 		bootstrap: ["jquery"],
 		localstorage: {
+			deps: ["backbone"]
+		},
+		user: {
+			deps: ["backbone"]
+		},
+		movie: {
+			deps: ["backbone"]
+		},
+		toy: {
 			deps: ["backbone"]
 		}
 	}
