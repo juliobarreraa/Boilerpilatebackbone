@@ -1,2 +1,5 @@
 *.DS_Store*
 /js/production/
+/boiler.sublime-project
+/boiler.sublime-workspace
+/css/style.css
