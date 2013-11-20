@@ -1,15 +1,38 @@
 define (require, module, exports) ->
 	Backbone = require "backbone"
+	require "backbone-relational"
 
 	window.App ?= {}
 	window.App.Toy ?= {}
 
-	class ToyModel extends Backbone.Model
+	ToyModel = Backbone.RelationalModel.extend
 		urlRoot: app.baseUrlApi + "toys"
+
+	ToyModel.setup()
 
 	class ToyCollection extends Backbone.Collection
 		model: ToyModel
 		url: app.baseUrlApi + "toys"
+
+	#class ToyRelationalModel extends Backbone.RelationalModel
+	###
+		relations: [
+			type: Backbone.HasOne
+			collectionType: 'ToyCollection'
+			relatedModel: 'ToyModel'
+			key: 'toy'
+			reverseRelation:
+				key: 'livesIn',
+				includeInJSON: 'id'
+		]
+	ToyRelationalModel.setup()
+
+
+	toy = new ToyRelationalModel( { name: 'Buzz Light Year' } );
+
+	console.log toy
+	###
+
 
 	class ToyView extends Backbone.View
 		el: "#content"
@@ -45,5 +68,6 @@ define (require, module, exports) ->
 	window.App.Toy =
 		Model: ToyModel
 		Collection: ToyCollection
+		#Relational: ToyRelationalModel
 		View: ToyView
 		Router: ToyRouter
