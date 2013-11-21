@@ -20,6 +20,7 @@ require.config({
 		movie: "../backbone/movie",
 		toy: "../backbone/toy",
 		country: "../backbone/country"
+		pet: "../backbone/pet"
 	},
 	shim: {
 		jquery: {
@@ -35,7 +36,7 @@ require.config({
 		"backbone-associations": {
 			deps: ["backbone"]
 		},
-		appglobal: ["cs!helper", "cs!user", "cs!movie", "cs!toy", "cs!country"],
+		appglobal: ["cs!helper", "cs!user", "cs!movie", "cs!toy", "cs!country", "cs!pet"],
 		bootstrap: ["jquery"],
 		localstorage: {
 			deps: ["backbone"]
@@ -50,6 +51,9 @@ require.config({
 			deps: ["backbone"]
 		},
 		country: {
+			deps: ["backbone"]
+		}
+		pet: {
 			deps: ["backbone"]
 		}
 	}

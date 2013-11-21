@@ -50,6 +50,15 @@
 				</fieldset>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="pet-list"></div>
+			</div>
+			<fieldset>
+				<legend>Perfil de Mascota</legend>
+				<div class="content-pet"></div>
+			</fieldset>
+		</div>
 	</div>
 
 	<script id="userlist-tmpl" type="text/template">
@@ -103,9 +112,6 @@
 		<li><strong>Costo</strong> <%= model.price %></li>
 	</ul>
 	</script>
-
-
-	
 	<script id="countrylist-tmpl" type="text/template">
 		<h1>Lista de paises</h1>
 		<ul>
@@ -113,7 +119,6 @@
 				<li><a href="#country/view/<%= model.id%>"><%= model.name%></a></li>
 			<% }) %>
 		</ul>
-		
 	</script>
 	
 	<script id="contryview-tmpl" type="text/template">
@@ -122,6 +127,24 @@
 		<li><strong>Identificador</strong> <%= model.id %></li>
 		<li><strong>Nombre</strong> <%= model.name %></li>
 		<li><strong>Capital</strong> <%= model.capital %></li>
+	</ul>
+	</script>
+
+	<script id="petlist-tmpl" type="text/template">
+	<h1>Lista de mascotas</h1>
+	<ul>
+	<% _.each(collection, function(model) { %>
+		<li><a href="#pet/view/<%= model.id %>"><%= model.name %></a></li>
+	<% }) %>
+	</ul>
+	</script>
+	
+	<script id="petDetail-tmpl" type="text/template">
+	<h1>Mascota detalle</h1>
+	<ul>
+		<li><strong>Identificador</strong> <%= model.id %></li>
+		<li><strong>Nombre</strong> <%= model.name %></li>
+		<li><strong>Raza</strong> <%= model.raza %></li>
 	</ul>
 	</script>
 	<!--<script src="js/vendor/require.min.js" data-main="js/production/app"></script> -->
