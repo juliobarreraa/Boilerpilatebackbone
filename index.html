@@ -35,12 +35,20 @@
 		<div class="row">
 			<div class="col-sm-6">
 				<div class="toy-list"></div>
-			</div>
-			<fieldset>
-				<legend>Perfil del juego</legend>
+				<fieldset>
+					<legend>Perfil del juego</legend>
 
-				<div class="content-toy"></div>
-			</fieldset>
+					<div class="content-toy"></div>
+				</fieldset>
+			</div>
+			<div class="col-sm-6">
+				<div class="country-list"></div>
+				<fieldset>
+					<legend>Detalle Paises</legend>
+
+					<div class="content-country"></div>
+				</fieldset>
+			</div>
 		</div>
 	</div>
 
@@ -94,8 +102,28 @@
 		<li><strong>Nombre</strong> <%= model.name %></li>
 		<li><strong>Costo</strong> <%= model.price %></li>
 	</ul>
-	</script>	
+	</script>
+
+
 	
+	<script id="countrylist-tmpl" type="text/template">
+		<h1>Lista de paises</h1>
+		<ul>
+			<% _.each(collection, function(model) { %>
+				<li><a href="#country/view/<%= model.id%>"><%= model.name%></a></li>
+			<% }) %>
+		</ul>
+		
+	</script>
+	
+	<script id="contryview-tmpl" type="text/template">
+	<h1>País Detalle</h1>
+	<ul>
+		<li><strong>Identificador</strong> <%= model.id %></li>
+		<li><strong>Nombre</strong> <%= model.name %></li>
+		<li><strong>Capital</strong> <%= model.capital %></li>
+	</ul>
+	</script>
 	<!--<script src="js/vendor/require.min.js" data-main="js/production/app"></script> -->
 	<!-- Mode developer -->
 	<!-- off -->

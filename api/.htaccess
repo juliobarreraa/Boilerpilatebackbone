@@ -31,3 +31,13 @@ RewriteRule ^toys/(\d+)/?$ toys.php?id=$1
 #   Entrada:  toys
 #   Salida: toys.php
 RewriteRule ^toys?$ toys.php
+
+# Reescribir la URL solicitada por el usuario
+#   Entrada:  country/ID/
+#   Salida: country.php?id=ID
+RewriteRule ^country/(\d+)/?$ country.php?id=$1
+
+# Reescribir la URL solicitada por el usuario
+#   Entrada:  country
+#   Salida: country.php
+RewriteRule ^country?$ country.php
