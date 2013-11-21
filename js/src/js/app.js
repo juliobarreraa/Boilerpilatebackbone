@@ -10,12 +10,17 @@ require.config({
 		jquery: "jquery.min",
 		cs: "cs",
 		backbone: "backbone.min",
-		"backbone-relational": "backbone-relational",
+		"backbone-associations": "backbone-associations.min",
 		underscore: "underscore.min",
 		helper: "helper",
 		bootstrap: "bootstrap.min",
 		localstorage: "backbone.localStorage.min",
-		appglobal: "../app/app"
+		appglobal: "../app/app",
+		user: "../backbone/user",
+		movie: "../backbone/movie",
+		toy: "../backbone/toy",
+		country: "../backbone/country"
+		pet: "../backbone/pet"
 	},
 	shim: {
 		jquery: {
@@ -28,12 +33,27 @@ require.config({
 			deps: ["jquery", "underscore"],
 			exports: "Backbone"
 		},
-		"backbone-relational": {
+		"backbone-associations": {
 			deps: ["backbone"]
 		},
-		appglobal: ["cs!helper"],
+		appglobal: ["cs!helper", "cs!user", "cs!movie", "cs!toy", "cs!country", "cs!pet"],
 		bootstrap: ["jquery"],
 		localstorage: {
+			deps: ["backbone"]
+		},
+		user: {
+			deps: ["backbone"]
+		},
+		movie: {
+			deps: ["backbone"]
+		},
+		toy: {
+			deps: ["backbone"]
+		},
+		country: {
+			deps: ["backbone"]
+		}
+		pet: {
 			deps: ["backbone"]
 		}
 	}

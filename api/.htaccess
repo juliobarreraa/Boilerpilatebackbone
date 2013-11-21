@@ -1,0 +1,53 @@
+# Activar RewriteEngine
+RewriteEngine on
+ 
+# Reescribir la URL solicitada por el usuario
+#   Entrada:  user/ID/
+#   Salida: user.php?id=ID
+RewriteRule ^user/(\d+)/?$ user.php?id=$1
+
+# Reescribir la URL solicitada por el usuario
+#   Entrada:  user
+#   Salida: user.php
+RewriteRule ^user?$ user.php
+
+# Reescribir la URL solicitada por el usuario
+#   Entrada:  movies/ID/
+#   Salida: movies.php?id=ID
+RewriteRule ^movies/(\d+)/?$ movies.php?id=$1
+
+# Reescribir la URL solicitada por el usuario
+#   Entrada:  movies
+#   Salida: movies.php
+RewriteRule ^movies?$ movies.php
+
+
+# Reescribir la URL solicitada por el usuario
+#   Entrada:  toys/ID/
+#   Salida: toys.php?id=ID
+RewriteRule ^toys/(\d+)/?$ toys.php?id=$1
+
+# Reescribir la URL solicitada por el usuario
+#   Entrada:  toys
+#   Salida: toys.php
+RewriteRule ^toys?$ toys.php
+
+# Reescribir la URL solicitada por el usuario
+<<<<<<< HEAD
+#   Entrada:  country/ID/
+#   Salida: country.php?id=ID
+RewriteRule ^country/(\d+)/?$ country.php?id=$1
+
+# Reescribir la URL solicitada por el usuario
+#   Entrada:  country
+#   Salida: country.php
+RewriteRule ^country?$ country.php
+
+#   Entrada:  pets/ID/
+#   Salida: pets.php?id=ID
+RewriteRule ^pets/(\d+)/?$ pets.php?id=$1
+
+# Reescribir la URL solicitada por el usuario
+#   Entrada:  pets
+#   Salida: pets.php
+RewriteRule ^pets?$ pets.php
