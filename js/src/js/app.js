@@ -18,7 +18,8 @@ require.config({
 		appglobal: "../app/app",
 		user: "../backbone/user",
 		movie: "../backbone/movie",
-		toy: "../backbone/toy"
+		toy: "../backbone/toy",
+		country: "../backbone/country"
 	},
 	shim: {
 		jquery: {
@@ -34,7 +35,7 @@ require.config({
 		"backbone-relational": {
 			deps: ["backbone"]
 		},
-		appglobal: ["cs!helper", "cs!user", "cs!movie", "cs!toy"],
+		appglobal: ["cs!helper", "cs!user", "cs!movie", "cs!toy", "cs!country"],
 		bootstrap: ["jquery"],
 		localstorage: {
 			deps: ["backbone"]
@@ -46,6 +47,9 @@ require.config({
 			deps: ["backbone"]
 		},
 		toy: {
+			deps: ["backbone"]
+		},
+		country: {
 			deps: ["backbone"]
 		}
 	}
