@@ -1,13 +1,14 @@
 define (require, module, exports) ->
 	# Solicita la inclusión de backbone para su uso
 	Backbone = require "backbone"
+	require "backbone-associations"
 
 	# Inicializa los objetos si no existen
 	window.App ?= {}
 	window.App.User ?= {}
 
 	# Define el modelo del usuario
-	class UserModel extends Backbone.Model
+	class UserModel extends Backbone.AssociatedModel
 		# Configura los valores por defecto
 		defaults:
 			id 		: null

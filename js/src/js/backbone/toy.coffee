@@ -1,39 +1,46 @@
 define (require, module, exports) ->
 	Backbone = require "backbone"
-	require "backbone-relational"
+	require "backbone-associations"
 
 	window.App ?= {}
 	window.App.Toy ?= {}
 
-	ToyModel = Backbone.RelationalModel.extend
+	class ToyModel extends Backbone.Model
 		urlRoot: app.baseUrlApi + "toys"
-
-	ToyModel.setup()
+		relations: [
+		    type: Backbone.One
+		    key: 'user'
+		    relatedModel: App.User.Model
+		    map: (id) ->
+		    	console.log id
+		]
+		defaults:
+			id : 0
+			user_id : 0
+			user : {}
+			name : ""
+			price: 0
 
 	class ToyCollection extends Backbone.Collection
 		model: ToyModel
 		url: app.baseUrlApi + "toys"
 
-	#class ToyRelationalModel extends Backbone.RelationalModel
 	###
-		relations: [
-			type: Backbone.HasOne
-			collectionType: 'ToyCollection'
-			relatedModel: 'ToyModel'
-			key: 'toy'
-			reverseRelation:
-				key: 'livesIn',
-				includeInJSON: 'id'
-		]
-	ToyRelationalModel.setup()
+	class ToyRelation extends Backbone.AssociatedModel
+	  relations: [
+	        type: Backbone.One
+	        key: 'user'
+	        relatedModel: App.User.Model
+	        map: (id) ->
+	        	console.log @
+	  ]
+	  defaults:
+	    name : ""
+	    number : 0
+	    user : {}
 
-
-	toy = new ToyRelationalModel( { name: 'Buzz Light Year' } );
-
-	console.log toy
+	#console.log toyRelation
 	###
-
-
 	class ToyView extends Backbone.View
 		el: "#content"
 		tmpls:
@@ -46,6 +53,7 @@ define (require, module, exports) ->
 			@model.on "change", @changeToy, @
 		changeToy: ->
 			tmpl = _.template jQuery("#{@tmpls.toyview}").html()
+			console.log @model.attributes.user
 			@$el.find(".content-toy").html tmpl(
 				model: @model.toJSON()
 			)
@@ -68,6 +76,5 @@ define (require, module, exports) ->
 	window.App.Toy =
 		Model: ToyModel
 		Collection: ToyCollection
-		#Relational: ToyRelationalModel
 		View: ToyView
 		Router: ToyRouter

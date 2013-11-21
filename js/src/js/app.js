@@ -10,7 +10,7 @@ require.config({
 		jquery: "jquery.min",
 		cs: "cs",
 		backbone: "backbone.min",
-		"backbone-relational": "backbone-relational",
+		"backbone-associations": "backbone-associations.min",
 		underscore: "underscore.min",
 		helper: "helper",
 		bootstrap: "bootstrap.min",
@@ -31,7 +31,7 @@ require.config({
 			deps: ["jquery", "underscore"],
 			exports: "Backbone"
 		},
-		"backbone-relational": {
+		"backbone-associations": {
 			deps: ["backbone"]
 		},
 		appglobal: ["cs!helper", "cs!user", "cs!movie", "cs!toy"],
